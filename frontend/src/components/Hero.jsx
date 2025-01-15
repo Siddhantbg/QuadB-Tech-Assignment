@@ -149,7 +149,7 @@ const Hero = () => {
         <div className='top'>
           To Do
           <span className='down'>
-            <img src="src/assets/caret-down.svg" alt="caret-down" />
+          <img src="/assets/caret-down.svg" alt="caret-down" />
           </span>
           <hr className='horizontal-line' />
           <div className='hero'>
