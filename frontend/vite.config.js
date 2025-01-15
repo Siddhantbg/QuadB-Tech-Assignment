@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: ['web-vitals']
+  },
+  build: {
+    outDir: 'build' // Set output directory to 'build'
   }
 })
