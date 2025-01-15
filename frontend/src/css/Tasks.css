@@ -1,0 +1,150 @@
+/* Base styles (default for larger screens) */
+.horizontal-line3, .horizontal-line4 {
+  border: 0;
+  height: 1px;
+  margin-left: 30px;
+  background: #cddbce;
+  width: 400px;
+  margin-top: 50px;
+}
+
+.mainbar {
+  border: 2px solid #eef6ef;
+  position: relative;
+  width: 452px;
+  margin-left: 970px;
+  padding-bottom: 20px;
+  height: auto;
+  background-color: #EEF6EF;
+}
+
+.side-icons {
+  margin-left: 20px;
+}
+
+.icon-text, .notes-text {
+  position: relative;
+  bottom: 5px;
+  left: 15px;
+}
+
+.notes-text {
+  color: #727c72;
+  left: 55px;
+}
+
+.horizontal-line4 {
+  background: #8cb48e;
+  width: 455px;
+  margin-left: 0;
+}
+
+.below-line4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editable-text {
+  background-color: #eef6ef;
+  border: none;
+  font-family: "Poppins", serif;
+  border-radius: 12px;
+}
+
+.editing-container {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.datepicker {
+  margin-left: 90px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calendar {
+  margin-bottom: 260px;
+}
+
+.icon-text2 {
+  margin-left: -20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+}
+
+/* ADD TASKS */
+.steps-container {
+  margin-top: 10px;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.step-input {
+  margin-left: 60px;
+  margin-top: 5px;
+  padding: 70px;
+  border: 1px solid #eef6ef;
+  border-radius: 5px;
+  background-color: #eef6ef;
+}
+
+.add-notes {
+  background-color: #eef6ef;
+  color: #727c72;
+  font-size: 14px;
+  font-family: "Poppins", serif;
+  border: none;
+  width: 80%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .mainbar {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .horizontal-line3, .horizontal-line4 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .editing-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .datepicker {
+    margin-left: 0;
+  }
+
+  .step-input {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .add-notes {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon-text2 {
+    font-size: 10px;
+  }
+
+  .add-notes {
+    font-size: 12px;
+  }
+}

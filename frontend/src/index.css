@@ -1,0 +1,135 @@
+/* --tw-bg-opacity: 1; */
+    /* background-color: rgb(226, 223, 239) */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    body {
+      
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+    /* ?NAVBAR CSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; 
+    border-bottom: 1px solid whtie; 
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 30px; 
+    margin-left: 10px;
+  }
+  
+  .brand {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4caf50; 
+    margin-left: 5px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+  }
+  
+  .icon {
+    height: 20px; 
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1); 
+  }
+  
+  /* ?SIDEBAR CSS */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially hidden */
+    width: 250px;
+    height: 100vh;
+    background-color: #eef6ef;
+    color: white;
+    transition: left 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .sidebar.visible {
+    left: 0; /* Show the sidebar */
+    width: 30%;
+    overflow-y: auto;
+  }
+  
+  .menu {
+    padding: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .container{
+    background-color: #FFF;
+    padding: 32px 48px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  }
+  
+  .container > h1{
+    margin-bottom: 20px;
+  }
+  
+  .container > form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container div{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+  
+  .container input::placeholder{
+    font-size: 12px;
+    font-style: italic;
+  }
+  
+  button{
+    background-color: purple;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+  }

@@ -1,0 +1,39 @@
+.icons{
+    background: white;
+    color: black;
+    border-radius: 12px;
+    padding: 30px;
+    
+}
+.user{
+    color: black;
+    background-color: #eef6ef;
+
+}
+.menu{
+    color: black;
+}
+.inincons{
+    padding-bottom: 10px;
+    display: flex;
+    gap: 12px;
+}
+.user{
+    background: linear-gradient(to right, #eef6ef, #fbfdfc);
+}
+
+.add-list{
+    background: white;
+    color: black;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    gap: 12px;
+}
+.chart{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
